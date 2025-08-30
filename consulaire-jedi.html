@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Consulaire Jedi - Wiki SWTOR</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+        body {
+            background-color: #111;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4 {
+            color: #00bcd4;
+            margin-top: 30px;
+        }
+
+        main section {
+            background-color: #1c1c1c;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 30px auto;
+            max-width: 900px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .role-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            margin: 15px 0;
+            background-color: #2a2a2a;
+            padding: 10px;
+            border-radius: 8px;
+        }
+
+        .role-item img {
+            width: 40px;
+            height: 40px;
+            flex-shrink: 0;
+        }
+
+        .role-text {
+            color: #fff;
+        }
+
+        .role-img {
+            display: block;
+            margin: 10px auto;
+            max-width: 400px;
+            width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        header,
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #222;
+            border-bottom: 1px solid #333;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        nav a {
+            color: #00bcd4;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            border-top: 1px solid #333;
+            margin-top: 50px;
+            font-size: 0.9em;
+            color: #aaa;
+        }
+
+        .floating-image {
+            position: fixed;
+            top: 100px;
+            /* Ajuste selon besoin */
+            right: 20px;
+            /* Distance du bord droit */
+            width: 25%;
+            /* Ajuste la taille */
+            height: auto;
+            z-index: 1000;
+            /* Pour s'assurer que c'est au-dessus */
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Décalage global du contenu vers la gauche */
+        body>*:not(img.floating-image) {
+            transform: translateX(-15%);
+        }
+    </style>
+</head>
+
+<body>
+    <img src="image/jedi-consular-character.png" alt="Décoration Jedi" class="floating-image" />
+
+    <header>
+        <h1>Consulaire Jedi</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="#origine">Origine</a></li>
+                <li><a href="#resume-classe">Résumé</a></li>
+                <li><a href="#histoire">Histoire</a></li>
+                <li><a href="#sous-classes">Sous-classes</a></li>
+                <li><a href="#compagnons">compagnons</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <!-- Image principale -->
+        <section id="image-principale"
+            style="display: flex; justify-content: center; align-items: center; margin-bottom: 30px; gap: 20px;">
+            <!-- Bloc gauche : Logo + texte -->
+            <div style="flex: 1; display: flex; align-items: center; justify-content: flex-end; height: 100%;">
+                <div
+                    style="display: flex; align-items: center; background-color: #111; padding: 20px 30px; border-radius: 10px; min-width: 300px; max-width: 400px;">
+                    <img src="image/jedi.png" alt="Consulaire Jedi" style="width: 190px; margin-right: 15px;">
+                    <div style="color: white; font-family: sans-serif; text-align: right;">
+                        <div style="font-size: 14px; color: #ccc;">République</div>
+                        <div style="font-size: 22px; font-weight: bold; line-height: 1.4;">Consulaire<br>Jedi</div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Bloc droite : Vidéo -->
+            <iframe width="400" height="225" src="https://www.youtube.com/embed/0f10PQ8etAg"
+                title="STAR WARS™: The Old Republic™ - Classes - The Jedi Consular" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+
+
+        <section id="origine">
+            <h2>Origine</h2>
+            <p>
+                	Le mal menace de consumer la galaxie. L' assaut implacable de l'Empire Sith a détruit le Temple Jedi et contraint les défenseurs de la République à l'exil lors de la dernière guerre.
+                    Une paix fragile a été négociée et les Jedi sont retournés sur leur monde natal abandonné depuis longtemps, TYTHON , pour se regrouper et enquêter sur leurs origines anciennes.
+            </p>
+            <p>
+                Aujourd'hui, un jeune Padawan sage se rend dans les ruines de la montagne de Tython dans une quête périlleuse pour terminer les épreuves Jedi et maîtriser les mystères de la Force .
+            </p>
+            <p>
+                Planète d'origine : <strong>Tython</strong>
+            </p>
+        </section>
+
+        <section id="resume-classe">
+            <h2>Résumé de classe</h2>
+            <p><strong>Visionnaire, ambassadeur, philosophe Jedi</strong></p>
+            <p>
+                Pendant plus de vingt mille ans, l'Ordre Jedi a œuvré pour la paix et la stabilité au sein de la
+                République Galactique, mais chaque jour apporte son lot de nouveaux dangers qui menacent de déchirer les
+                Jedi et la galaxie entière. Pour survivre, la République a besoin de chefs, de visionnaires : elle a
+                besoin des Jedi Consulaires.
+            </p>
+            <p>
+                La Force confère aux Jedi Consulaires la puissance et la sagesse nécessaires pour briller sur un champ
+                de bataille et sur la scène diplomatique. Grâce à des années d'entraînement intensif et de méditation,
+                les Consulaires font preuve d'autant d'adresse pour dénouer une situation délicate qu'en maniant leur
+                sabre laser face à une horde d'ennemis. Leur fine compréhension des mystères les plus secrets de la
+                Force procure aux Jedi Consulaires le discernement et l'empathie leur permettant de résoudre les
+                conflits épineux qui échappent même aux sénateurs et aux gouverneurs les plus rusés. Les Consulaires
+                savent quand parlementer et quand se battre. Quand une négociation tourne mal, ils mettent leur
+                intuition accrue à profit pour anticiper et repousser aisément les attaques ennemies avec leur sabre
+                laser à double lame.
+            </p>
+            <p>
+                Avant d'être en mesure de chasser les ténèbres de la galaxie, les Jedi Consulaires savent qu'ils devront
+                d'abord dissiper les ténèbres qui résident en eux. Ils devront se battre pour ne pas céder aux solutions
+                de facilité et résister à la tentation d'user de leur pouvoir à des fins personnelles. Ils doivent
+                constamment remettre leurs motivations en question. Quand la tentation du côté obscur se fait sentir,
+                ils doivent se remémorer le douloureux destin des Jedi qui y ont succombé par le passé. C'est seulement
+                ainsi qu'ils pourront réunir l'Ordre Jedi et la République et rallier les troupes nécessaires pour
+                sauver la galaxie de l'obscurité qui la menace
+            </p>
+        </section>
+
+        <section id="histoire">
+            <h2>Histoire</h2>
+
+            <div class="chapter">
+                <h3>Prologue : Émissaire de l'Alliance du Rift</h3>
+                <p>
+                    À une époque de grands bouleversements dans la galaxie, un Padawan talentueux se rend sur Tython,
+                    l'ancienne planète natale des Jedi, pour accomplir les dernières épreuves et devenir un Jedi à part
+                    entière. Sous la tutelle de Maître Yuon Par, un professeur et historien peu orthodoxe mais
+                    expérimenté, un sinistre complot est découvert, qui pourrait entraîner la destruction de l'Ordre
+                    Jedi.
+                </p>
+                <p>
+                    Incarnant le véritable talent et le dévouement, le Padawan affronte l'esprit d'un ancien Jedi nommé
+                    Rajivari et triomphe d'un jeune homme vengeur qui s'était engagé à découvrir ses secrets.
+                    Impressionné par ces exploits exceptionnels, le Conseil Jedi promeut le Padawan de Yuon au rang de
+                    membre à part entière de l'Ordre en tant que nouveau Consulaire. Cependant, les aventures de ce
+                    puissant Jedi ne font que commencer…
+                </p>
+            </div>
+
+            <div class="chapter">
+                <h3>Chapitre 1 : La peste noire</h3>
+                <p>
+                    Alors que la Consulaire accède au rang de Jedi, plusieurs des Maîtres Jedi les plus talentueux de la
+                    galaxie sont soudainement frappés par une mystérieuse maladie. Ce fléau paralyse ses victimes de
+                    paranoïa et de folie, les poussant vers le côté obscur de la Force. Maître Yuon Par est l'une des
+                    premières à souffrir des effets de cet étrange fléau, obligeant son ancienne élève, déterminée, à
+                    rechercher une ancienne technique de protection, qui pourrait bien être son seul espoir. La
+                    technique est un succès et Yuon est sauvée des pires effets de la peste. La Consulaire, désormais la
+                    seule Jedi de la galaxie à connaître les secrets de cette technique de protection, se lance dans une
+                    aventure périlleuse pour retrouver d'autres personnes atteintes par le fléau et en déterminer la
+                    cause.
+                </p>
+                <p>
+                    Après une longue et difficile recherche, le Consulaire découvre que la peste a été créée il y a
+                    longtemps par un ancien Sith doté d'un pouvoir terrifiant. L'identité du responsable de la
+                    réapparition de la peste est également révélée : un Seigneur Sith connu sous le nom de Vivicar.
+                    Ancien Jedi corrompu, Vivicar cherchait à se venger des Jedi qui l'avaient laissé pour mort lors
+                    d'une mission sur le monde corrompu de Malachor III. Vivicar déchaîna la peste sur ces Jedi, les
+                    forçant à revivre cette mission fatidique.
+                </p>
+                <p>
+                    Embarquant à bord du vaisseau amiral de Vivicar, le Consulaire défie et vainc Vivicar, mais découvre
+                    que ce dernier est possédé par l'esprit du créateur originel de la peste, l'ancien Seigneur Sith
+                    Terrak Morrhage. Le Consulaire est confronté à un choix quasi impossible : tenter de racheter
+                    Vivicar et de restaurer tous les Jedi atteints par sa peste, ou abattre Vivicar, ce qui tuerait tous
+                    les Jedi infectés, mais anéantirait aussi la peste et son mal, à jamais.
+                </p>
+            </div>
+
+            <div class="chapter">
+                <h3>Chapitre 2 : L'Alliance du Rift</h3>
+                <p>
+                    Ayant fait preuve d'une sagesse et d'un talent exceptionnels, le Consulaire obtient le rang de
+                    Maître juste à temps pour une nouvelle mission ambitieuse. Alors que de nombreux mondes membres de
+                    la République perdent confiance en la possibilité de vaincre l'Empire, un groupe de planètes
+                    indispensables, dont Balmorra, Saleucami, Manaan, Aeten II et Erigorm, se sont unies pour former
+                    l'Alliance du Rift, un groupe de mondes au bord de la rébellion. Le Consulaire Jedi nouvellement
+                    promu est chargé par le Chancelier Suprême en personne d'aider ces mondes et de reforger leur
+                    confiance en la République.
+                </p>
+                <p>
+                    Voyageant à travers la galaxie, le Consulaire collabore avec les représentants de l'Alliance du Rift
+                    pour protéger leurs mondes et gagner leur confiance. Mais la trahison soudaine d'un membre de
+                    l'Alliance révèle que la République et l'Ordre Jedi ont été infiltrés par un nombre inconnu
+                    d'espions connus sous le nom d'Enfants de l'Empereur. Manipulés par le pouvoir de l'Empereur, ces
+                    espions ignorent le mal qui les guette. Même les Jedi ne perçoivent pas leur corruption. Mais alors
+                    qu'une guerre à grande échelle éclate à travers la galaxie, les Enfants sont sur le point de se
+                    réveiller et de frapper là où la République est la plus vulnérable.
+                </p>
+            </div>
+
+            <div class="chapter">
+                <h3>Chapitre 3 : Les enfants de l'empereur</h3>
+                <p>
+                    Face à des infiltrés indétectables et à une offensive impériale de grande ampleur, le Consulaire et
+                    l'Alliance du Rift collaborent pour recruter de nouveaux alliés pour la République. Le Consulaire
+                    rassemble une armée de puissants alliés sur les mondes lointains de Voss et Belsavis et mène sa
+                    charge vers Corellia, planète assiégée. Là, les Enfants de l'Empereur se sont pleinement réveillés
+                    et ont semé le chaos dans les rangs de la République. Pire encore, leur chef, le « Premier Fils »,
+                    se révèle être un membre de confiance et de longue date du Conseil Jedi.
+                </p>
+                <p>
+                    Suivant les conseils du Consulaire, les armées de l'Alliance du Rift repoussent progressivement les
+                    forces de l'Empire sur Corellia afin de découvrir la cachette du Premier Fils. Déterminé, le
+                    Consulaire lance un assaut ultime contre le repaire du Premier Fils. Dans un combat final acharné,
+                    la galaxie étant en jeu, ces deux maîtres de la Force croisent le fer. Le Consulaire triomphe
+                    finalement du Premier Fils et en sort victorieux. Privés de sa protection, les Enfants de l'Empereur
+                    sont révélés aux Jedi, permettant à la République de se renforcer face à l'Empire. Pendant ce temps,
+                    le Consulaire est salué comme un héros de l'ordre, prêt à affronter tous les défis qui l'attendent.
+                </p>
+            </div>
+        </section>
+
+
+
+        <section id="sous-classes">
+            <h2>Sous-classes du Consulaire Jedi</h2>
+
+            <article>
+                <h3><img src="image/classe/érudit.png" style="height: 2%; width: 5%;">érudit Jedi</h3>
+                <p>
+                    Les mystères de la Force sont infinis. Un <strong>Érudit Jedi</strong> , à l'écoute de la Force et
+                    décidé à découvrir ses secrets ésotériques, le sait mieux que personne dans la galaxie. Ces maîtres
+                    de la Force sont connus pour leur sagesse et leur empathie autant que pour les soins puissants
+                    qu'ils prodiguent et leurs compétences défensives. En période de troubles, un Érudit allie la
+                    sagesse du passé, source de perspicacité, au pouvoir de la Force pour changer le cours des
+                    événements qui agitent la galaxie
+                </p>
+
+                <h4>Rôles de classe</h4>
+                <div class="role-item">
+                    <img src="image/damage.jpg" alt="Dégâts" />
+                    <div class="role-text">
+                        <strong>Dégâts</strong> – Les Érudits spécialisés en Télékinésie et en Équilibre se laissent
+                        envahir par la Force, qui leur permet de manipuler leur environnement pour infliger des dégâts
+                        même au plus puissant de leurs adversaires, et les soumettre.
+                    </div>
+                </div>
+
+                <div class="role-item">
+                    <img src="image/healing.jpg" alt="healing" />
+                    <div class="role-text">
+                        <strong>Soins</strong> – Après des années de formation, l'Érudit spécialisé en Protection
+                        maîtrise de puissantes techniques de soin qui lui permettent de maintenir en vie ses amis et
+                        alliés au cours de la bataille.
+                    </div>
+                </div>
+            </article>
+
+            <article>
+                <h3><img src="image/classe/ombre.png" style="height: 2%; width: 5%;">Ombre Jedi</h3>
+                <p>
+                    Une <strong>Ombre</strong> est au service de l'Ordre Jedi : son observateur silencieux et, quand
+                    l'action s'impose, sa main subtile. Soucieuses d'échapper aux décisions imprudentes du Conseil Jedi,
+                    les Ombres avancent en toute discrétion, recueillant des informations et écartant sans faire de
+                    vague ceux qui menacent l'Ordre Jedi. Recourant aux techniques de Force qui embrument l'esprit de
+                    leurs adversaires, les Ombres s'infiltrent en territoire hostile et, le cas échéant, frappent leurs
+                    ennemis avec une efficacité redoutable
+                </p>
+
+                <h4>Rôle de classe</h4>
+                <div class="role-item">
+                    <img src="image/tank.jpg" alt="Tank" />
+                    <div class="role-text">
+                        <strong>Tank</strong> – En se dissimulant à l'aide de la Force, les Ombres spécialisées en
+                        Combat cinétique sont capables de prolonger leur propre vie et subir des dégâts qui
+                        terrasseraient leurs alliés.
+                    </div>
+                </div>
+                <div class="role-item">
+                    <img src="image/damage.jpg" alt="damage" />
+                    <div class="role-text">
+                        <strong>Dégâts</strong> – Utilisant la Force pour se camoufler, les Ombres spécialisées en
+                        Infiltration et en Sérénité infligent des dégâts dévastateurs à l'aide de leur sabre laser à
+                        double lame avant même que les ennemis les repèrent.
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <section id="compagnons">
+            <h2>Compagnons</h2>
+            <table style="width: 100%; text-align: center; margin-top: 20px;">
+                <tr>
+                    <th colspan="5">Les compagnons du Consulaire Jedi</th>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="Qyzen_Fess.html">
+                            <img src="image/compagnons/Qyzen_Fess.png" alt="Qyzen Fess"
+                                style="width: 100px; height: auto; border-radius: 8px;" />
+                        </a>
+                        <p>Qyzen Fess</p>
+                    </td>
+                    <td>
+                        <a href="tharan.html">
+                            <img src="image/compagnons/tharan_cedrax.png" alt="Tharan"
+                                style="width: 100px; height: auto; border-radius: 8px;" />
+                        </a>
+                        <p>tharan cedrax</p>
+                    </td>
+                    <td>
+                        <a href="nadia.html">
+                            <img src="image/compagnons/nadia-grell.png" alt="Nadia"
+                                style="width: 100px; height: auto; border-radius: 8px;" />
+                        </a>
+                        <p>Nadia Grell</p>
+                    </td>
+                    <td>
+                        <a href="zenith.html">
+                            <img src="image/compagnons/Zenith.png" alt="zenith"
+                                style="width: 100px; height: auto; border-radius: 8px;" />
+                        </a>
+                        <p>Zenith</p>
+                    </td>
+                    <td>
+                        <a href="iresso.html">
+                            <img src="image/compagnons/Lieutenant_Iresso.png" alt="Lieutenant_Iresso"
+                                style="width: 100px; height: auto; border-radius: 8px;" />
+                        </a>
+                        <p>Lieutenant Iresso</p>
+                    </td>
+                </tr>
+            </table>
+        </section>
+
+    </main>
+
+    <footer>
+        <p><a href="index.html">Retour à l'accueil du Wiki SWTOR</a></p>
+        <p>Page non officielle – Fandom SWTOR</p>
+    </footer>
+</body>
+
+</html>()

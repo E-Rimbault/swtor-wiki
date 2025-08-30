@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contrebandier - Wiki SWTOR</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+        body {
+            background-color: #111;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4 {
+            color: #00bcd4;
+            margin-top: 30px;
+        }
+
+        main section {
+            background-color: #1c1c1c;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 30px auto;
+            max-width: 900px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .role-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            margin: 15px 0;
+            background-color: #2a2a2a;
+            padding: 10px;
+            border-radius: 8px;
+        }
+
+        .role-item img {
+            width: 40px;
+            height: 40px;
+            flex-shrink: 0;
+        }
+
+        .role-text {
+            color: #fff;
+        }
+
+        .role-img {
+            display: block;
+            margin: 10px auto;
+            max-width: 400px;
+            width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        header,
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #222;
+            border-bottom: 1px solid #333;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        nav a {
+            color: #00bcd4;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            border-top: 1px solid #333;
+            margin-top: 50px;
+            font-size: 0.9em;
+            color: #aaa;
+        }
+
+        .floating-image {
+            position: fixed;
+            top: 100px;
+            /* Ajuste selon besoin */
+            right: 20px;
+            /* Distance du bord droit */
+            width: 25%;
+            /* Ajuste la taille */
+            height: auto;
+            z-index: 1000;
+            /* Pour s'assurer que c'est au-dessus */
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Décalage global du contenu vers la gauche */
+        body>*:not(img.floating-image) {
+            transform: translateX(-15%);
+        }
+    </style>
+</head>
+
+<body>
+    <img src="image//contrebandier.png" alt="Décoration Jedi" class="floating-image" />
+
+    <header>
+        <h1>contrebandier</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="#origine">Origine</a></li>
+                <li><a href="#resume-classe">Résumé</a></li>
+                <li><a href="#histoire">Histoire</a></li>
+                <li><a href="#sous-classes">Sous-classes</a></li>
+                <li><a href="#compagnons">compagnons</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <!-- Image principale -->
+        <section id="image-principale"
+            style="display: flex; justify-content: center; align-items: center; margin-bottom: 30px; gap: 20px;">
+            <!-- Bloc gauche : Logo + texte -->
+            <div style="flex: 1; display: flex; align-items: center; justify-content: flex-end; height: 100%;">
+                <div
+                    style="display: flex; align-items: center; background-color: #111; padding: 20px 30px; border-radius: 10px; min-width: 300px; max-width: 400px;">
+                    <img src="image/jedi.png" alt="contrebandier" style="width: 190px; margin-right: 15px;">
+                    <div style="color: white; font-family: sans-serif; text-align: right;">
+                        <div style="font-size: 14px; color: #ccc; text-align: left;">République</div>
+                        <div style="font-size: 22px; font-weight: bold; line-height: 1.4;">Contrebandier</div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Bloc droite : Vidéo -->
+            <iframe width="400" height="225" src="https://www.youtube.com/embed/1VwTWsLoe1M"
+                title="STAR WARS™: The Old Republic™ - Classes - The Smuggler" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+
+
+        <section id="origine">
+            <h2>Origine</h2>
+            <p>
+                La galaxie est en proie au chaos. Les grandes puissances s’affrontent dans l’ombre, tandis que les
+                routes commerciales sont devenues le terrain de chasse des pirates, des cartels et des mercenaires sans
+                foi ni loi. Dans ce tumulte, certains refusent de choisir un camp, préférant tracer leur propre voie — à
+                leur manière.
+            </p>
+            <p>
+                Parmi eux, un contrebandier audacieux fait parler de lui. Maître de l’improvisation, tireur d’élite au
+                sang-froid et pilote de talent, il sillonne l’espace à bord de son vaisseau, toujours prêt à conclure un
+                marché… ou à s’en sortir par la ruse et un bon blaster. Traqué par des criminels, courtisé par la
+                République, il joue un jeu dangereux où seule sa liberté compte vraiment.
+            </p>
+            <p>
+                Une mission inattendue l’amène à Ord Mantell, une planète ravagée par une insurrection. Ce qui commence
+                comme un simple travail de livraison pourrait bien changer son destin — et celui de la galaxie tout
+                entière…
+            </p>
+            <p>
+                Planète d'origine : <strong>Ord Mantell</strong>
+            </p>
+        </section>
+
+        <section id="resume-classe">
+            <h2>Résumé de classe</h2>
+            <p><strong>Rapide, intelligent, ne répond à personne</strong></p>
+            <p>
+                Parfois, la chance est plus importante que la compétence, mais cela ne fait jamais de mal d'avoir les
+                deux.
+            </p>
+            <p>
+                L'anarchie est devenue monnaie courante après la guerre dévastatrice entre la République et l'Empire.
+                Les fluctuations politiques et les pirates en maraude ont rendu les voyages spatiaux indépendants
+                périlleux. Coupés des voies d'approvisionnement traditionnelles, des systèmes stellaires entiers sont au
+                bord de l'effondrement. Un esprit aventurier qui n'a pas peur d'enfreindre quelques règles peut réaliser
+                de jolis profits en transportant des marchandises vers ces points névralgiques, mais cela exige des
+                réflexes et une intelligence remarquables, ainsi qu'une bonne maîtrise du blaster. Même dans ce cas, la
+                vie d'un Contrebandier est toujours risquée.
+            </p>
+            <p>
+                Accumulant les ennemis aussi vite qu'ils accumulent les crédits, les Contrebandiers ne survivent dans
+                cette galaxie que grâce à leur ruse, leur discrétion et leur ingéniosité. Qu'il s'agisse de séduire un
+                extraterrestre séduisant ou de marchander avec un criminel endurci, leur charme est un atout notoire, et
+                souvent la clé pour renverser une situation qui se dégrade. Mais si les circonstances se compliquent
+                trop, comptez sur un Contrebandier pour toujours avoir un plan d'évasion. Habitués à passer inaperçus,
+                les Contrebandiers sont incroyablement insaisissables. Pourtant, acculés au pied du mur, ils deviennent
+                rapidement des combattants rusés et souvent redoutables.
+            </p>
+            <p>
+                Par-dessus tout, les Contrebandiers façonnent leur destin. Malgré leur affinité pour les crédits, ils
+                sont connus pour refuser des opportunités lucratives lorsque leurs clients exigent trop de contrôle.
+                Certains Contrebandiers sont encore plus exigeants, refusant de travailler avec des esclavagistes et des
+                représentants de l'Empire Sith. C'est un métier où l'on recherche constamment des alliés de confiance,
+                mais ils sont souvent rares. Qu'il s'agisse de mener un blocus impérial ou d'abattre un gangster
+                traître, les Contrebandiers agissent toujours au pif. Chaque transaction offre une chance de s'enrichir
+                au-delà de leurs espérances… ou de mourir anonymement dans le vide spatial.
+            </p>
+        </section>
+
+        <section id="histoire">
+            <h2>Histoire</h2>
+
+            <div class="chapter">
+                <h3>Prologue : Le plus grand hors-la-loi</h3>
+                <p>
+                    Un contrebandier casse-cou se retrouve bloqué sur Ord Mantell, une région déchirée par la guerre,
+                    après qu'un trafic d'armes a été volé, le vaisseau et sa cargaison étant volés par un voleur rusé
+                    nommé Skavak. Le contrebandier poursuit l'insaisissable voleur pour récupérer le vaisseau et sa
+                    cargaison avant qu'un gangster notoire ne découvre la rupture du contrat et ne le condamne à mort.
+                    Aidé par le mercenaire bienveillant Corso Riggs, le contrebandier devient un héros improbable de la
+                    République en éliminant les alliés de Skavak parmi les violents guérilleros séparatistes.
+                </p>
+                <p>
+                    Skavak s'enfuit sur Coruscant poursuivant ses propres plans secrets. Là, le contrebandier doit
+                    affronter les factions de la pègre de la capitale de la République pour enfin se venger. Bien que le
+                    contrebandier récupère son vaisseau volé, il est trop tard pour éviter la colère de l'impitoyable
+                    gangster Rogun le Boucher. Des chasseurs de primes se lancent à sa poursuite, tandis qu'une nouvelle
+                    opportunité commerciale se présente : une belle et mystérieuse passagère clandestine.
+                </p>
+            </div>
+
+            <div class="chapter">
+                <h3>Chapitre 1 : La Fortune Fatale</h3>
+                <p>
+                    Aidé par l'ancien complice de Skavak, une séduisante chasseuse de trésors connue sous le nom de
+                    Risha, le contrebandier astucieux se lance à la recherche de la légendaire fortune perdue du célèbre
+                    seigneur du crime Nok Drayen à travers la galaxie. Pour retrouver ce trésor, le contrebandier doit
+                    livrer une cargaison de curiosités exotiques à d'énigmatiques acheteurs. En échange, il reçoit une
+                    technologie de vaisseau spatial unique en son genre qui le rapproche un peu plus de la découverte
+                    des richesses de Nok Drayen. Le contrebandier s'aventure à travers des mondes dangereux pour honorer
+                    ses contrats, notamment la mégalopole criminelle de Nar Shadda et les terres nobles et belliqueuses
+                    d'Alderaan.
+                </p>
+                <p>
+                    Le rusé Skavak traque le contrebandier à tout va, cherchant à s'emparer de la fortune perdue. Pour
+                    survivre, il doit déployer toutes ses armes, ainsi que l'aide de ses nouveaux alliés, comme le
+                    gladiateur Wookiee Bowdaar. Au cours d'un voyage légendaire aux confins de la galaxie, le
+                    contrebandier découvre la vérité sur Nok Drayen et le secret de l'héritage du baron du crime
+                    disparu. Skavak utilise une dernière ruse pour affronter le contrebandier dans un duel sans merci à
+                    bord d'un vaisseau spatial en train de s'effondrer et de sombrer dans un trou noir. Le contrebandier
+                    échappe à une mort certaine grâce à une histoire légendaire et au respect retrouvé de l'élite de la
+                    pègre. Cependant, un homme souhaite toujours sa mort.
+                </p>
+            </div>
+
+            <div class="chapter">
+                <h3>Chapitre 2 : Bataille dans le monde souterrain</h3>
+                <p>
+                    Rogun le Boucher n'a pas pardonné au contrebandier d'avoir rompu son contrat sur Ord Mantell.
+                    L'impitoyable gangster chagrien tend un piège à Port Nulle Part, repaire de la pègre. Le
+                    contrebandier échappe de justesse aux hommes de main de Rogun et sauve par inadvertance un ancien
+                    allié : le joueur et courtier en informations Darmas Pollaran. Rogun a capturé Darmas et la belle
+                    sénatrice Bevera Dodonna, dans l'intention de les vendre à un Grand Amiral impérial surnommé « le
+                    Loup du Néant ». Mais lorsque le vaisseau amiral impérial du Loup du Néant apparaît à Port Nulle
+                    Part pour s'emparer de Darmas et de la sénatrice Dodonna, tout le monde fuit pour se mettre en
+                    sécurité, à quelques instants de distance.
+                </p>
+                <p>
+                    En reconnaissance de son sauvetage héroïque des mains du contrebandier, la sénatrice Dodonna use de
+                    son autorité gouvernementale pour le nommer corsaire officiel de la République. Elle engage son
+                    équipage pour saboter et piller les ennemis de la République sur Balmorra et Hoth. Au cours d'une
+                    série d'escapades rocambolesques, le contrebandier déjoue les plans des moffs impériaux et des rois
+                    pirates, compromettant les opérations de Rogun le Boucher et du Loup du Néant, et les embarrassant
+                    encore davantage.
+                </p>
+                <p>
+                    De puissants alliés rejoignent l'équipage du contrebandier alors qu'ils préparent le casse du
+                    millénaire et pillent un croiseur impérial chargé du trésor. De retour de cette aventure effroyable,
+                    le contrebandier déjoue une tentative d'assassinat du sénateur Dodonna par Rogun le Boucher. En
+                    réponse, le sénateur Dodonna charge le contrebandier de détruire définitivement l'empire criminel de
+                    Rogun.
+                </p>
+            </div>
+
+            <div class="chapter">
+                <h3>Chapitre 3 : La colère du loup du vide</h3>
+                <p>
+                    Le contrebandier se fraye un chemin de destruction à travers l'exotique planète neutre Voss et la
+                    mortelle planète-prison de la République, Belsavis, afin de paralyser le syndicat du crime de Rogun
+                    le Boucher. Obligeant enfin cet ennemi de longue date à se dévoiler, le contrebandier prend d'assaut
+                    une base secrète sur Tatooine pour affronter Rogun en personne, mais découvre que les apparences
+                    sont trompeuses. Loin d'être l'allié du Loup du Néant, Rogun est un fervent patriote de la
+                    République, traquant les espions impériaux qui détruisent la République de l'intérieur
+                </p>
+                <p>
+                    Lorsque le contrebandier découvre les identités choquantes des espions impériaux alliés du Loup du
+                    Néant, sa piste le mène jusqu'à Corellia, planète en proie à la guerre. Le contrebandier venge les
+                    trahisons de ses anciens camarades et découvre enfin le véritable plan du Loup du Néant : réunir la
+                    plus grande alliance criminelle que la galaxie ait jamais connue et utiliser sa flotte pour piller
+                    les chantiers navals de la République, puis Coruscant elle-même. Alors que les combats entre les
+                    forces républicaines et impériales atteignent leur paroxysme, le contrebandier se précipite pour
+                    affronter le Loup du Néant à bord de son vaisseau amiral et prendre le contrôle de l'armada
+                    criminelle avant son attaque. Les capitaines, racailles et scélérats, lui accordent volontiers leur
+                    loyauté, laissant la seule question : qui frapper ? Une flotte impériale aveuglée, ou les forces
+                    vulnérables de la République ? Au lendemain de cette guerre criminelle, le contrebandier s'impose
+                    comme l'un des dirigeants les plus puissants de la galaxie.
+                </p>
+            </div>
+        </section>
+
+
+
+        <section id="sous-classes">
+            <h2>Sous-classes du contrebandier</h2>
+
+            <article>
+                <h3><img src="image/classe/malfrat.png" style="height: 2%; width: 5%;">Malfrat</h3>
+                <p>
+                    Le <strong>Malfrat</strong> n'a pas le temps pour la politesse ni pour un combat loyal. Outre son
+                    fidèle blaster, il emporte une ceinture furtive, un fusil à dispersion et une trousse médicale :
+                    tout ce qu'il lui faut pour entrer, assommer l'ennemi et en sortir vivant. Être invisible est la
+                    meilleure option, mais même lorsque les Sith volent en agitant leurs sabres laser, ils n'ont qu'un
+                    air surpris lorsque le fusil à dispersion du Scélérat les renvoie d'où ils viennent. Le Scélérat
+                    tire toujours le premier.
+                </p>
+
+                <h4>Rôles de classe</h4>
+                <div class="role-item">
+                    <img src="image/damage.jpg" alt="Dégâts" />
+                    <div class="role-text">
+                        <strong>Dégâts</strong> – Les ferrailleurs et les voyous utilisent tous les outils disponibles
+                        pour infliger des dégâts rapides avec un barrage de boulons de blaster et d'explosifs.
+                    </div>
+                </div>
+
+                <div class="role-item">
+                    <img src="image/healing.jpg" alt="soin" />
+                    <div class="role-text">
+                        <strong>Soins</strong> – Les malfrats sont armés de la meilleure technologie médicale que
+                        l'argent puisse acheter pour garantir que leur équipage reste en bonne santé dans le feu de la
+                        bataille.
+                    </div>
+                </div>
+            </article>
+
+            <article>
+                <h3><img src="image/classe/franc-tireur.png" style="height: 2%; width: 5%;">franc-tireur</h3>
+                <p>
+                    Maître du tir truqué, premier à se mettre à couvert et prêt à saisir la moindre occasion, le
+                    <strong>franc-tireur</strong> et ses deux blasters forment l'équipe idéale. Il peut tirer dans les
+                    jambes d'un homme pour l'empêcher de charger, l'aveugler pour l'empêcher d'atteindre ses armes ou
+                    lui infliger de graves blessures pour une distraction maximale. Il existe une cible idéale pour
+                    mettre fin à chaque dispute, et le Pistolero la connaît comme sa poche.
+                </p>
+
+                <h4>Rôle de classe</h4>
+                <div class="role-item">
+                    <img src="image/damage.jpg" alt="Dégâts" />
+                    <div class="role-text">
+                        <strong>Dégâts</strong> – Tireurs d'élite, saboteurs, bastonnades. Les franc-tireurs s'assurent
+                        toujours d'avoir suffisamment de puissance de feu pour infliger rapidement des dégâts massifs.
+                        Ils éliminent leurs ennemis avec toutes sortes d'armes, des tirs de blaster aux grenades
+                    </div>
+            </article>
+        </section>
+
+        <section id="compagnons">
+            <h2>Compagnons</h2>
+            <table style="width: 100%; text-align: center; margin-top: 20px;">
+                <tr>
+                    <th colspan="5">Les compagnons du contrebandier</th>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="corso.html">
+                            <img src="image/compagnons/Corso_Riggs.png" alt="Corso Riggs"
+                                style="width: 100px; height: auto; border-radius: 8px;" />
+                        </a>
+                        <p>Corso Riggs</p>
+                    </td>
+                    <td>
+                        <a href="risha.html">
+                            <img src="image/compagnons/risha.jpg" alt="Risha"
+                                style="width: 100px; height: auto; border-radius: 8px;" />
+                        </a>
+                        <p>Risha</p>
+                    </td>
+                    <td>
+                        <a href="bowdaar.html">
+                            <img src="image/compagnons/bowdaar.jpg" alt="Bowdaar"
+                                style="width: 100px; height: auto; border-radius: 8px;" />
+                        </a>
+                        <p>Bowdaar</p>
+                    </td>
+                    <td>
+                        <a href="Akaavi.html">
+                            <img src="image/compagnons/Akaavi-Spar.png" alt="Akaavi Spar"
+                                style="width: 100px; height: auto; border-radius: 8px;" />
+                        </a>
+                        <p>Akaavi Spar</p>
+                    </td>
+                    <td>
+                        <a href="guss-tuno.html">
+                            <img src="image/compagnons/guss-tuno.jpg" alt="guss Tuno"
+                                style="width: 100px; height: auto; border-radius: 8px;" />
+                        </a>
+                        <p>Guss Tuno</p>
+                    </td>
+                </tr>
+            </table>
+        </section>
+
+    </main>
+
+    <footer>
+        <p><a href="index.html">Retour à l'accueil du Wiki SWTOR</a></p>
+        <p>Page non officielle – Fandom SWTOR</p>
+    </footer>
+</body>
+
+</html>

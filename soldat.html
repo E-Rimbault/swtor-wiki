@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Soldat - Wiki SWTOR</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+        body {
+            background-color: #111;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4 {
+            color: #00bcd4;
+            margin-top: 30px;
+        }
+
+        main section {
+            background-color: #1c1c1c;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 30px auto;
+            max-width: 900px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .role-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            margin: 15px 0;
+            background-color: #2a2a2a;
+            padding: 10px;
+            border-radius: 8px;
+        }
+
+        .role-item img {
+            width: 40px;
+            height: 40px;
+            flex-shrink: 0;
+        }
+
+        .role-text {
+            color: #fff;
+        }
+
+        .role-img {
+            display: block;
+            margin: 10px auto;
+            max-width: 400px;
+            width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        header,
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #222;
+            border-bottom: 1px solid #333;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        nav a {
+            color: #00bcd4;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            border-top: 1px solid #333;
+            margin-top: 50px;
+            font-size: 0.9em;
+            color: #aaa;
+        }
+
+        .floating-image {
+            position: fixed;
+            top: 100px;
+            /* Ajuste selon besoin */
+            right: 20px;
+            /* Distance du bord droit */
+            width: 25%;
+            /* Ajuste la taille */
+            height: auto;
+            z-index: 1000;
+            /* Pour s'assurer que c'est au-dessus */
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Décalage global du contenu vers la gauche */
+        body>*:not(img.floating-image) {
+            transform: translateX(-15%);
+        }
+    </style>
+</head>
+
+<body>
+    <img src="image//soldat.png" alt="Décoration Jedi" class="floating-image" />
+
+    <header>
+        <h1>Chevalier Jedi</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="#origine">Origine</a></li>
+                <li><a href="#resume-classe">Résumé</a></li>
+                <li><a href="#histoire">Histoire</a></li>
+                <li><a href="#sous-classes">Sous-classes</a></li>
+                <li><a href="#compagnons">compagnons</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <!-- Image principale -->
+        <section id="image-principale"
+            style="display: flex; justify-content: center; align-items: center; margin-bottom: 30px; gap: 20px;">
+            <!-- Bloc gauche : Logo + texte -->
+            <div style="flex: 1; display: flex; align-items: center; justify-content: flex-end; height: 100%;">
+                <div
+                    style="display: flex; align-items: center; background-color: #111; padding: 20px 30px; border-radius: 10px; min-width: 300px; max-width: 400px;">
+                    <img src="image/jedi.png" alt="Chevalier Jedi" style="width: 190px; margin-right: 15px;">
+                    <div style="color: white; font-family: sans-serif; text-align: right;">
+                        <div style="font-size: 14px; color: #ccc;">République</div>
+                        <div style="font-size: 22px; font-weight: bold; line-height: 1.4;">Soldat</div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Bloc droite : Vidéo -->
+            <div style="flex: 1; display: flex; justify-content: flex-start; height: 100%;">
+                <iframe width="400" height="225" src="https://www.youtube.com/embed/5u7fLeQR3K8" title="STAR WARS™: The Old Republic™ - Classes - The Trooper" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </section>
+
+
+        <section id="origine">
+            <h2>Origine</h2>
+            <p>
+                Alors que l’ombre de l’Empire Sith s’étend à nouveau sur la galaxie, la République s’accroche à ses idéaux grâce à la bravoure de ses défenseurs. En première ligne : les soldats d’élite de l’escouade spéciale de l’Armée de la République, entraînés pour accomplir l’impossible là où les Jedi eux-mêmes hésitent à intervenir.
+            </p>
+            <p>
+                Dans les rangs de ces héros anonymes, un jeune soldat se distingue par sa discipline, sa loyauté et sa détermination. Sélectionné pour rejoindre l’escouade d’élite du Chaos, il est envoyé sur Ord Mantell, une planète en proie à une sanglante rébellion. Là, dans un conflit où la loyauté est mise à l’épreuve à chaque instant, il devra faire face à des choix qui forgeront non seulement son avenir, mais peut-être celui de toute la République.
+            </p>
+            <p>
+                Le devoir l'appelle, et rien ne pourra l'arréter.
+            </p>
+            <p>
+                Planète d'origine : <strong>Ord Mantell</strong>
+            </p>
+        </section>
+
+        <section id="resume-classe">
+            <h2>Résumé de classe</h2>
+            <p><strong>Honneur, devoir, défense de la République</strong></p>
+            <p>
+                Tous les héros ne portent pas de sabre laser. Certains ont simplement la volonté de se battre.
+            </p>
+            <p>
+                Pendant des décennies, les forces armées de la République Galactique ont défendu leur civilisation contre un Empire Sith apparemment invincible. Malgré d'innombrables revers, les hommes et les femmes de l'armée républicaine n'ont jamais reculé jusqu'à ce que le Sénat le leur ordonne. Ces âmes courageuses sont toujours prêtes à risquer leur vie aujourd'hui.
+            </p>
+            <p>
+                Ces soldats incarnent les plus hautes aspirations de l'armée de la République : la force de combat la plus avancée de la galaxie. Ils sont équipés pour affronter n'importe quel ennemi, quel que soit l'environnement, mais ce n'est pas leur équipement qui les rend résistants, mais leur courage. Leurs plus grandes armes sont leur esprit indomptable, leur sens inébranlable du devoir et leur loyauté indéfectible les uns envers les autres et envers les idéaux que représente la République. À notre époque, les enjeux n'ont jamais été aussi élevés. La République doit vaincre ou s'éteindre. Le destin de la galaxie repose sur la capacité d'hommes ordinaires à devenir des héros extraordinaires. Telle est la voie du soldat de la République.
+            </p>
+        </section>
+
+        <section id="histoire">
+            <h2>Histoire</h2>
+
+            <div class="chapter">
+                <h3>Prologue : Combattre les ténèbres</h3>
+                <p>
+                    L'un des Padawans les plus puissants que les Jedi aient vus depuis des générations se précipite au
+                    péril lorsqu'une attaque surprise de guerriers indigènes sauvages détruit presque l'Ordre sur
+                    Tython. Survivant à une bataille acharnée contre ces ennemis monstrueux et sauvant de nombreux
+                    élèves, le Padawan reçoit un nouveau professeur redoutable du Haut Conseil : Maître Orgus Din, héros
+                    de guerre iconoclaste. Ensemble, ils traquent un ennemi mystérieux qui a ciblé les Jedi pour les
+                    exterminer.
+                </p>
+                <p>
+                    Le Padawan et Maître Orgus forment une alliance fragile avec des colons Twi'leks méfiants, qui,
+                    selon eux, pourraient détenir les clés de ce sinistre complot. Le Padawan doit surmonter les
+                    conflits internes et les redoutables ennemis extérieurs pour sauver le Temple Jedi et contrecarrer
+                    les plans pervers de Bengel Morr, un héros Jedi corrompu. En reconnaissance de cette victoire, le
+                    Padawan reçoit une promotion et une nouvelle mission périlleuse digne d'un Chevalier de la
+                    République.
+                </p>
+            </div>
+
+            <div class="chapter">
+                <h3>Chapitre 1 : La Frappe du Désolateur</h3>
+                <p>
+                    Le Chevalier déjoue un complot machiavélique contre Coruscant, la capitale de la République, et tue
+                    ainsi l'enfant unique du sinistre Seigneur Sith Dark Angral. Ce dernier, impitoyable, jure de se
+                    venger et révèle à la République qu'il s'est emparé de plusieurs super-armes top secrètes, qu'il
+                    compte retourner contre leurs créateurs. Alors que des milliards de vies sont en jeu, le Grand
+                    Maître Satele Shan assigne au Chevalier de nouveaux alliés pour l'aider à affronter cette menace :
+                    la Padawan Kira Carsen, en proie à des troubles, et le droïde astromécano T7-01, déterminé à vaincre
+                    la menace.
+                </p>
+                <p>
+                    L'équipe du Chevalier parcourt la galaxie à toute vitesse, à la recherche désespérée du croiseur de
+                    combat de Dark Angral et de sa super-arme, le Désolateur, un engin dévastateur capable de détruire
+                    des mondes entiers de la République. Le Chevalier survit à des épreuves insurmontables pour vaincre
+                    les menaçants apprentis Sith d'Angral et contrecarrer leurs plans de destruction planétaire.
+                </p>
+                <p>
+                    Ces victoires ont cependant un prix élevé. Héros Jedi légendaires et vaillants soldats de la
+                    République paient de leur vie chaque monde sauvé. Alors que Dark Angral utilise la superarme
+                    Désolateur pour attaquer Tython, la planète natale des Jedi, le Chevalier se précipite pour
+                    affronter Angral dans un duel final qui décidera du sort de l'Ordre Jedi. Malgré la défaite de Dark
+                    Angral, l'Empire qu'il servait rompt le Traité de Coruscant et entre à nouveau en guerre contre la
+                    République.
+                </p>
+            </div>
+
+            <div class="chapter">
+                <h3>Chapitre 2 : À la recherche de l'Empereur</h3>
+                <p>
+                    Alors que les forces de la République et de l'Empire se rassemblent pour un affrontement final
+                    dévastateur, le Chevalier se joint à un complot audacieux visant à capturer l'Empereur Sith et à
+                    l'obliger à une reddition pacifique. Le Maître Jedi Tol Braga, obstinément confiant et
+                    charismatique, cerveau de cette mission, guide le Chevalier dans sa quête des secrets perdus de
+                    l'Empire. Seule cette connaissance oubliée des plans secrets et de la technologie avancée peut
+                    révéler la forteresse cachée de l'Empereur et rendre le chef Sith vulnérable. De nouveaux alliés
+                    rejoignent l'équipage du Chevalier, et les guerriers Jedi d'élite de l'équipe d'intervention de
+                    Maître Braga participent à leurs recherches sur les planètes assiégées de Hoth et Balmorra.
+                </p>
+                <p>
+                    Le plan d'invasion de la forteresse de l'Empereur réussit au-delà des ambitions de Maître Braga.
+                    Cependant, les Jedi découvrent plus que ce qu'ils espéraient lorsqu'ils affrontent enfin le chef
+                    Sith dans son antre. L'Empereur est plus qu'un homme : il est l'incarnation vivante du Côté Obscur.
+                    Armé d'incalculables pouvoirs de corruption, l'Empereur vainquit facilement le Chevalier, Maître
+                    Braga et leurs compagnons Jedi, les faisant basculer tous vers le Côté Obscur.
+                </p>
+                <p>
+                    Lorsque Maître Orgus Din, un vieil allié, utilise la Force pour briser la domination mentale de
+                    l'Empereur, le Chevalier parvient à briser la domination mentale de l'Empereur. Bien que Maître
+                    Braga et le reste de l'équipe d'intervention Jedi semblent avoir disparu, le Chevalier parvient à
+                    libérer d'autres alliés et à s'échapper de la forteresse cachée. Une dernière surprise l'attend
+                    cependant : une confrontation avec le bourreau Sith, Seigneur Fléau, le célèbre « Courroux de
+                    l'Empereur ». À la stupéfaction des héros, Seigneur Fléau jure d'aider le Chevalier à vaincre
+                    l'Empereur ; il se rend et exige d'être présenté au Haut Conseil Jedi.
+                </p>
+            </div>
+
+            <div class="chapter">
+                <h3>Chapitre 3 : Annihilation galactique</h3>
+                <p>
+                    Lord Scourge révèle le véritable objectif de guerre de l'Empereur : accomplir un rituel Sith qui lui
+                    conférerait un pouvoir illimité et l'immortalité en éradiquant toute vie dans la galaxie. L'Empereur
+                    exige d'abord un sacrifice pour alimenter son horrible rituel : la destruction d'un monde entier et
+                    de ses habitants. Le chef Sith a dépêché ses agents maléfiques à travers la galaxie pour semer la
+                    mort par milliards. Bien que les serviteurs de l'Empereur ignorent le sort qui les attend une fois
+                    son rituel accompli, Scourge a eu une vision qui a révélé le complot secret de son maître – et le
+                    courageux Chevalier Jedi qui le déjouerait. Lord Scourge jure de l'aider à vaincre l'Empereur et à
+                    sauver la galaxie.
+                </p>
+                <p>
+                    L'équipage du Chevalier se lance à la poursuite des mondes pris pour cible par l'Empereur et
+                    découvre le sort de Maître Tol Braga et de l'équipe d'intervention Jedi. Ces Jedi déchus restent les
+                    esclaves de l'Empereur, retournés contre ceux-là mêmes qu'ils avaient juré de protéger. Le Chevalier
+                    doit affronter ces anciens alliés et décider de leur sort avant d'affronter l'Empereur lui-même.
+                    Dans un duel final apocalyptique, le Chevalier affronte l'Empereur Sith pour le destin de la galaxie
+                    – et la changer à jamais.
+                </p>
+            </div>
+        </section>
+
+
+
+        <section id="sous-classes">
+            <h2>Sous-classes du Chevalier Jedi</h2>
+
+            <article>
+                <h3><img src="image/classe/gardien.png" style="height: 2%; width: 5%;">Gardien Jedi</h3>
+                <p>
+                    La sous classe <strong>Gardien Jedi</strong> est un : Véritable rempart entre le peuple de la
+                    République et ses ennemis, le Gardien résiste face à l'adversité et défie ses adversaires. Sa
+                    concentration parfaite et son utilisation de la Force lui permettent de se déplacer avec aisance,
+                    même en armure lourde, ce qui en fait une cible difficile à éliminer. Leaders sur le champ de
+                    bataille comme en dehors, les Gardiens sont connus pour inspirer leurs alliés à des exploits
+                    exceptionnels, ce qui en fait un atout précieux dans les conflits de toute ampleur
+                </p>
+
+                <h4>Rôles de classe</h4>
+                <div class="role-item">
+                    <img src="image/tank.jpg" alt="Tank" />
+                    <div class="role-text">
+                        <strong>Tank</strong> – Le gardien de la défense renforce son armure lourde avec la force
+                        nécessaire pour absorber le poids des attaques et protéger les alliés les plus vulnérables.
+                    </div>
+                </div>
+
+                <div class="role-item">
+                    <img src="image/damage.jpg" alt="Dégâts" />
+                    <div class="role-text">
+                        <strong>Dégâts</strong> – Vigilance et Concentration. Les Gardiens déclenchent un tourbillon
+                        d'attaques au sabre laser et de force pour infliger des dégâts lourds et durables à leurs
+                        ennemis.
+                    </div>
+                </div>
+            </article>
+
+            <article>
+                <h3><img src="image/classe/sentinelle.png" style="height: 2%; width: 5%;">Sentinelle Jedi</h3>
+                <p>
+                    La sous classe <strong>Sentinelle Jedi</strong> Contrôle et concentration sont les maîtres mots de
+                    la Sentinelle. Grâce à des années d'entraînement, elle apprend à manier deux sabres laser
+                    simultanément pour créer un réseau complexe de dégâts quasiment impossible à éviter. Manipulant la
+                    Force, la Sentinelle peut déceler les failles dans la défense ennemie, les failles potentielles de
+                    sa propre technique et savoir comment anticiper au mieux les deux..
+                </p>
+
+                <h4>Rôle de classe</h4>
+                <div class="role-item">
+                    <img src="image/damage.jpg" alt="Dégâts" />
+                    <div class="role-text">
+                        <strong>Dégâts</strong> – Les Sentinelles Watchman, Combat et Concentration se sont concentrées
+                        sur le combat au sabre laser au cours de leurs études et sont devenues capables de manier des
+                        sabres laser doubles pour garantir qu'une grande quantité de dégâts soit infligée en peu de
+                        temps avec une rafale de frappes.
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <section id="compagnons">
+            <h2>Compagnons</h2>
+            <table style="width: 100%; text-align: center; margin-top: 20px;">
+                <tr>
+                    <th colspan="5">Les compagnons du Chevalier Jedi</th>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="kira-carsen.html">
+                            <img src="image/compagnons/Kira.png" alt="Kira Carsen"
+                                style="width: 100px; height: auto; border-radius: 8px;" />
+                        </a>
+                        <p>Kira Carsen</p>
+                    </td>
+                    <td>
+                        <a href="doc.html">
+                            <img src="image/compagnons/Doc.png" alt="Doc"
+                                style="width: 100px; height: auto; border-radius: 8px;" />
+                        </a>
+                        <p>Doc</p>
+                    </td>
+                    <td>
+                        <a href="t7-01.html">
+                            <img src="image/compagnons/T7-O1.png" alt="T7-01"
+                                style="width: 100px; height: auto; border-radius: 8px;" />
+                        </a>
+                        <p>T7-01</p>
+                    </td>
+                    <td>
+                        <a href="lord-scourge.html">
+                            <img src="image/compagnons/Scourge.png" alt="Lord Scourge"
+                                style="width: 100px; height: auto; border-radius: 8px;" />
+                        </a>
+                        <p>Lord Scourge</p>
+                    </td>
+                    <td>
+                        <a href="sergeant-rusk.html">
+                            <img src="image/compagnons/rusk_fe.png" alt="Sergent Rusk"
+                                style="width: 100px; height: auto; border-radius: 8px;" />
+                        </a>
+                        <p>Sergent Rusk</p>
+                    </td>
+                </tr>
+            </table>
+        </section>
+
+    </main>
+
+    <footer>
+        <p><a href="index.html">Retour à l'accueil du Wiki SWTOR</a></p>
+        <p>Page non officielle – Fandom SWTOR</p>
+    </footer>
+</body>
+
+</html>

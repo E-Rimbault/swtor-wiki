@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chasseur de Primes - Wiki SWTOR</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+        body {
+            background-color: #111;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4 {
+            color: #00bcd4;
+            margin-top: 30px;
+        }
+
+        main section {
+            background-color: #1c1c1c;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 30px auto;
+            max-width: 900px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .role-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            margin: 15px 0;
+            background-color: #2a2a2a;
+            padding: 10px;
+            border-radius: 8px;
+        }
+
+        .role-item img {
+            width: 40px;
+            height: 40px;
+            flex-shrink: 0;
+        }
+
+        .role-text {
+            color: #fff;
+        }
+
+        .role-img {
+            display: block;
+            margin: 10px auto;
+            max-width: 400px;
+            width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        header,
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #222;
+            border-bottom: 1px solid #333;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        nav a {
+            color: #00bcd4;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            border-top: 1px solid #333;
+            margin-top: 50px;
+            font-size: 0.9em;
+            color: #aaa;
+        }
+
+        .floating-image {
+            position: fixed;
+            top: 100px;
+            /* Ajuste selon besoin */
+            right: 20px;
+            /* Distance du bord droit */
+            width: 25%;
+            /* Ajuste la taille */
+            height: auto;
+            z-index: 1000;
+            /* Pour s'assurer que c'est au-dessus */
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Décalage global du contenu vers la gauche */
+        body>*:not(img.floating-image) {
+            transform: translateX(-15%);
+        }
+    </style>
+</head>
+
+<body>
+    <img src="image//chasseur-de-prime.png" alt="Décoration Chasseur de prime" class="floating-image" />
+
+    <header>
+        <h1>chasseur de primes</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="#origine">Origine</a></li>
+                <li><a href="#resume-classe">Résumé</a></li>
+                <li><a href="#histoire">Histoire</a></li>
+                <li><a href="#sous-classes">Sous-classes</a></li>
+                <li><a href="#compagnons">compagnons</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <!-- Image principale -->
+        <section id="image-principale"
+            style="display: flex; justify-content: center; align-items: center; margin-bottom: 30px; gap: 20px;">
+            <!-- Bloc gauche : Logo + texte -->
+            <div style="flex: 1; display: flex; align-items: center; justify-content: flex-end; height: 100%;">
+                <div
+                    style="display: flex; align-items: center; background-color: #111; padding: 20px 30px; border-radius: 10px; min-width: 300px; max-width: 400px;">
+                    <img src="image/empire-sith.png" alt="chasseur de primes" style="width: 190px; margin-right: 15px;">
+                    <div style="color: white; font-family: sans-serif; text-align: right;">
+                        <div style="font-size: 14px; color: #ccc;">Empire Sith</div>
+                        <div style="font-size: 22px; font-weight: bold; line-height: 1.4;">Chasseur<br>de Primes</div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Bloc droite : Vidéo -->
+            <div style="flex: 1; display: flex; justify-content: flex-start; height: 100%;">
+                <iframe width="400" height="225" src="https://www.youtube.com/embed/1qWCNiR4AA8"
+                    title="STAR WARS™: The Old Republic™ - Classes - The Bounty Hunter" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+            </div>
+        </section>
+
+
+        <section id="origine">
+            <h2>Origine</h2>
+            <p>
+                La Grande Traque commence. Tandis que l' Empire Sith et la République Galactique complotent l'un contre
+                l'autre, une lutte sanglante fait rage dans les systèmes frontaliers.
+                Des mercenaires de toute la galaxie se disputent le privilège de participer à une chasse à l'homme
+                dangereuse où ils doivent capturer ou éliminer les cibles les plus notoires et les plus insaisissables.
+            </p>
+            <p>
+                Dans les marais pollués de Hutta , un jeune combattant coriace fait équipe avec un chasseur de primes
+                vieillissant pour obtenir une invitation à cette lutte mortelle pour la fortune et la gloire...
+            </p>
+            <p>
+                Planète d'origine : <strong>Nal Hutta</strong>
+            </p>
+        </section>
+
+        <section id="resume-classe">
+            <h2>Résumé de classe</h2>
+            <p><strong>Chasseur, chercheur, tueur à gages</strong></p>
+            <p>
+                D'innombrables ennemis s'opposent à la quête de domination de l'Empire Sith. Aussi, l'Empire
+                dépense-t-il sans compter afin de se débarrasser de ces menaces, en s'offrant les services des Chasseurs
+                les plus redoutables de la galaxie. Quiconque s'attire les foudres de l'Empire est condamné à passer le
+                reste de sa vie dans l'angoisse et la terreur, car il n'est jamais question de savoir si un Chasseur de
+                primes vous trouvera, mais plutôt quand il vous trouvera..
+            </p>
+            <p>
+                Célèbres et anonymes à la fois, les Chasseurs de primes sont bien plus que de simples mercenaires : ce
+                sont les héritiers d'une vocation professionnelle, d'un cercle ancien auréolé de gloire. La traque de
+                cibles insaisissables à travers plusieurs systèmes stellaires requiert l'intervention d'un expert, en
+                particulier quand les cibles sont éminentes, puissantes et souvent prêtes pour l'affrontement. La
+                carrière de Chasseur de primes attire de nombreux aspirants en quête de sensations fortes et provenant
+                de tous les horizons, mais seuls les plus forts survivent dans cette voie où règne une concurrence sans
+                pitié.
+            </p>
+            <p>
+                La voie du Chasseur de primes est périlleuse, car les enjeux sont toujours de taille, et ne peut avoir
+                que deux issues : une vie de gloire et de célébrité... ou une mort rapide et déshonorante.
+            </p>
+        </section>
+
+        <section id="histoire">
+            <h2>Histoire</h2>
+
+            <div class="chapter">
+                <h3>Prologue : Profit et gloire</h3>
+                <p>
+                    Un chasseur de primes chevronné se lance dans la Grande Chasse, une compétition légendaire où les
+                    guerriers les plus accomplis de la galaxie cherchent gloire et célébrité en traquant des cibles
+                    infâmes, insaisissables et extrêmement dangereuses. Mais lorsque son mentor, Braden, est assassiné
+                    par un cruel Mandalorien nommé Tarro Blood, le chasseur de primes indépendant se démène pour trouver
+                    un autre moyen de participer à la compétition. Il parvient à obtenir le parrainage du seigneur du
+                    crime Nem'ro le Hutt et se rend à Dromund Kaas pour concourir pour la dernière place disponible de
+                    la Grande Chasse. Après avoir participé à une Grande Mêlée où le vainqueur remporte tout, le
+                    chasseur de primes obtient enfin le droit de participer à la Grande Chasse.
+                </p>
+            </div>
+
+            <div class="chapter">
+                <h3>Chapitre 1 : La Grande Chasse</h3>
+                <p>
+                    Le chasseur de primes commence la Grande Traque en fanfare en dérobant un puissant vaisseau spatial
+                    dont aucune cible ne peut espérer se cacher. Crysta Markon, son contact pour la Grande Traque,
+                    fournit la liste des cibles : un brillant amiral impérial dirigeant une invasion, un assassin
+                    mystérieux jamais aperçu par ses cibles ni par ses clients, l'escroc le plus sournois de la galaxie
+                    et un noble intouchable respecté par ses amis comme par ses ennemis. Mais pour chaque cible, le
+                    chasseur de primes doit également se méfier des rivaux de la Grande Traque qui recherchent
+                    exactement la même prime.
+                </p>
+                <p>
+                    Tandis que le chasseur de primes se fraie un chemin vers la victoire, le Mandalorien Tarro Blood, au
+                    passé terni, s'en fraye un chemin. Les deux rivaux s'affrontent lors de la dernière prime de la
+                    Grande Traque : le Maître Jedi Kellian Jarro, connu pour avoir anéanti un clan mandalorien entier.
+                    Dans une course effrénée vers sa cible, le chasseur de primes sème la destruction dans le vaisseau
+                    du Jedi, récompensant la trahison de Tarro Blood par une mort ignoble et tuant Maître Jarro. Déclaré
+                    nouveau Grand Champion de la Grande Traque, le chasseur de primes reçoit la visite de Mandalore,
+                    chef de tous les clans mandaloriens. Le chasseur doit alors peser l'honneur et la responsabilité de
+                    rejoindre les Mandaloriens contre une vie de liberté personnelle.
+                </p>
+            </div>
+
+            <div class="chapter">
+                <h3>Chapitre 2 : Le prix de la célébrité</h3>
+                <p>
+                    Grand Champion de la Grande Chasse est bien plus qu'un titre, comme le chasseur de primes l'apprend
+                    rapidement. Une vie pleine d'opportunités s'ouvre à lui lorsque les anciens Grands Champions
+                    l'accueillent dans leurs rangs. Ils révèlent l'existence de la Liste Noire, une collection de primes
+                    de grande valeur mises à la disposition de talents confirmés comme eux. En guise de bienvenue dans
+                    leur communauté exclusive, le chasseur de primes se voit offrir deux cibles de la Liste Noire : un
+                    chef de clan mandalorien en disgrâce et un seigneur pirate vorace. Neutraliser ces cibles
+                    incroyablement difficiles accroît encore sa renommée, sa gloire et son prix.
+                </p>
+                <p>
+                    Mais le chemin menant à ce nouvel honneur entraîne des conséquences inattendues. Le Service
+                    d'Information Stratégique de la République et l'Ordre Jedi réclament justice pour la mort de Maître
+                    Jarro lors de la Grande Traque, et le chasseur de primes échappe de justesse à une opération
+                    d'infiltration complexe. Les agents de la République continuent de le traquer et, ce faisant,
+                    massacrent les nouveaux alliés du Grand Champion. Pire encore, le Jedi inconnu responsable de
+                    l'opération parvient à convaincre le Chancelier Suprême de la République de déclarer le chasseur de
+                    primes une menace pour toute vie civilisée. Qualifié de menace galactique, le chasseur de primes
+                    acquiert un nouveau titre notoire : ennemi public numéro un.
+                </p>
+            </div>
+
+            <div class="chapter">
+                <h3>Chapitre 3 : L'ennemi public</h3>
+                <p>
+                    Devenu une cible facile pour tout imbécile à deux crédits équipé d'un blaster, le chasseur de primes
+                    est intrigué lorsque l'impitoyable Dark Tormen lui fait une proposition. En échange de la collecte
+                    d'une série de primes qui servent les intérêts du Seigneur Sith, Tormen offre une rémunération
+                    lucrative et participe à la traque du Jedi qui a fait du chasseur de primes l'ennemi public numéro
+                    un – un homme que Tormen identifie comme le Maître Jedi Jun Seros. Avide de vengeance, le chasseur
+                    de primes accepte cette alliance de circonstance et commence à énumérer les cibles : un corsaire
+                    notoire de la République, un général charismatique de la République en mission diplomatique et les
+                    chefs d'une rébellion anti-impériale.
+                </p>
+                <p>
+                    Lorsque ces actions forcent Maître Jun Seros à se dévoiler, le chasseur de primes porte un coup
+                    fatal au Jedi intransigeant. Il n'a guère le temps de se réjouir lorsque Dark Tormen désigne le
+                    Chancelier Suprême Janarus de la République comme la cible ultime. Dans un assaut audacieux, le
+                    chasseur de primes embarque à bord du vaisseau du Chancelier Suprême et l'affronte directement.
+                    Janarus condamne Maître Seros pour ses méthodes répugnantes et lui propose une alternative à sa mort
+                    : en échange de l'arrêt de Dark Tormen et de son aide pour rétablir la paix brisée, le Chancelier
+                    Suprême Janarus absoudra publiquement le chasseur de primes de ses crimes. Le chasseur de primes met
+                    en balance son honneur personnel et la situation générale, et décide si l'espoir d'une paix
+                    galactique vaut la peine de trahir un accord avec l'Empire.
+                </p>
+            </div>
+        </section>
+
+
+
+        <section id="sous-classes">
+            <h2>Sous-classes du Chasseur de Primes</h2>
+
+            <article>
+                <h3><img src="image/classe/mercenaire.png" style="height: 2%; width: 5%;">Mercenaire</h3>
+                <p>
+                    Si l'attaque est la meilleure défense, alors le<strong>Mercenaire</strong> a la défense la plus
+                    impressionnante de toute la galaxie. Des blasters lourdement modifiés et des missiles thermoguidés
+                    redoutables font du Mercenaire une plateforme d'armes lourdes mobile. Aucun problème ne résiste à
+                    une puissance de feu accrue et ceux qui savent ce dont il est capable ne s'interposent jamais entre
+                    un Mercenaire et sa cible. Lorsque leurs blasters doivent refroidir, les Mercenaires peuvent
+                    également fournir un soutien à leurs alliés, en les soignant et leur permettant de rester alertes
+                    pour le restant du combat
+                </p>
+
+                <h4>Rôles de classe</h4>
+                <div class="role-item">
+                    <img src="image/damage.jpg" alt="degâts" />
+                    <div class="role-text">
+                        <strong>Dégâts</strong> – Les Mercenaires spécialisés en Arsenal et en Artillerie novatrice
+                        combinent des tirs de blasters et de missiles pour générer des explosions dévastatrices qui
+                        éliminent rapidement leurs adversaires. Les Mercenaires spécialisés en Artillerie novatrice se
+                        concentrent sur les explosifs et déversent des barrages de missiles, grenades et de tirs qui
+                        infligent des dégâts destructeurs sur la durée à leurs ennemis.
+                    </div>
+                </div>
+
+                <div class="role-item">
+                    <img src="image/healing.jpg" alt="Heal" />
+                    <div class="role-text">
+                        <strong>Soins</strong> – Les Mercenaires Gardes du corps sont spécialisés dans les services de
+                        sécurité grâce à différents instruments de dispersion de kolto pour soigner leurs alliés et
+                        disposent d'une enveloppe protectrice et d'infusions à libération dans le temps, qui leur
+                        offrent un abri sûr dans les environnements les plus hostiles.
+                    </div>
+                </div>
+            </article>
+
+            <article>
+                <h3><img src="image/classe/spécialiste.png" style="height: 2%; width: 5%;">Spécialiste</h3>
+                <p>
+                    Le<strong> Spécialiste</strong> porte son armure lourde comme une seconde peau et est toujours prêt à
+                    essayer le dernier prototype de technologie s'il peut lui offrir une meilleure protection. Le
+                    meilleur des armures, des tactiques défensives et des lance-flammes puissants s'associent pour faire
+                    du Spécialiste un barrage humain infranchissable auquel peu d'ennemis échappent indemnes
+                </p>
+
+                <h4>Rôle de classe</h4>
+                <div class="role-item">
+                    <img src="image/tank.jpg" alt="tank" />
+                    <div class="role-text">
+                        <strong>Tank</strong> – Les Techniciens du bouclier se lancent dans la bataille avec leur
+                        jetpack et sont en mesure de résister à de puissantes attaques pour défendre leurs alliés.
+                    </div>
+                </div>
+                <div class="role-item">
+                    <img src="image/damage.jpg" alt="damage" />
+                    <div class="role-text">
+                        <strong>Dégâts</strong> – Les Spécialistes experts en Pyrotechnie se servent de
+                        lance-flammes et de missiles afin de s'assurer que leurs ennemis s'enflamment dans une
+                        flambée de destruction, infligeant des dégâts sur la durée. Les Spécialistes en Prototype
+                        avancé attaquent à l'aide de détonateurs thermiques, de gantelets-lames et de brassards
+                        aimantés pour rapidement dévaster leurs cibles.
+                </div>
+            </article>
+        </section>
+
+        <section id="compagnons">
+            <h2>Compagnons</h2>
+            <table style="width: 100%; text-align: center; margin-top: 20px;">
+                <tr>
+                    <th colspan="5">Les compagnons du Chasseur de primes</th>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="mako.html">
+                            <img src="image/compagnons/Mako.png" alt="Mako"
+                                style="width: 100px; height: auto; border-radius: 8px;" />
+                        </a>
+                        <p>Mako</p>
+                    </td>
+                    <td>
+                        <a href="gault.html">
+                            <img src="image/compagnons/Gault_Rennow.png" alt="Gault"
+                                style="width: 100px; height: auto; border-radius: 8px;" />
+                        </a>
+                        <p>Gault rennoxw</p>
+                    </td>
+                    <td>
+                        <a href="torian.html">
+                            <img src="image/compagnons/Torian_Cadera.png" alt="Torian"
+                                style="width: 100px; height: auto; border-radius: 8px;" />
+                        </a>
+                        <p>Torian Cadera</p>
+                    </td>
+                    <td>
+                        <a href="blizz.html">
+                            <img src="image/compagnons/Blizz.png" alt="blizz"
+                                style="width: 100px; height: auto; border-radius: 8px;" />
+                        </a>
+                        <p>Blizz</p>
+                    </td>
+                    <td>
+                        <a href="skadge.html">
+                            <img src="image/compagnons/Skadge.png" alt="skadge"
+                                style="width: 100px; height: auto; border-radius: 8px;" />
+                        </a>
+                        <p>Skadge</p>
+                    </td>
+                </tr>
+            </table>
+        </section>
+
+    </main>
+
+    <footer>
+        <p><a href="index.html">Retour à l'accueil du Wiki SWTOR</a></p>
+        <p>Page non officielle – Fandom SWTOR</p>
+    </footer>
+</body>
+
+</html>
