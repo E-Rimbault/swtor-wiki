@@ -7,7 +7,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Wiki SWTOR</title>
   <link rel="stylesheet" href="styles.css" />
-  <link rel="stylesheet" href="new.css" />
 </head>
 
 <body>
@@ -20,7 +19,6 @@
         <li><a href="#planètes">Planètes</a></li>
         <li><a href="#factions">Factions</a></li>
         <li><a href="#historique">Historique</a></li>
-        <li><a href="#swtor-news">News</a></li>
       </ul>
     </nav>
   </header>
@@ -130,14 +128,6 @@
       <p>Le jeu oppose deux grandes factions : la République Galactique et l’Empire Sith.</p>
     </section>
 
-    <section id="swtor-news">
-      <h2>Dernières SWTOR News</h2>
-      <ul id="news-list">
-        <li>Chargement des dernières actualités...</li>
-      </ul>
-    </section>
-
-
     <section id="historique">
       <h2>Contexte historique</h2>
       <p>L’histoire se déroule environ 3 600 ans avant les films Star Wars, à l’époque d’un conflit galactique entre
@@ -148,38 +138,6 @@
   <footer>
     <p>Site non officiel. © Fans de SWTOR</p>
   </footer>
-
-  <script>
-async function loadNews() {
-  try {
-    const res = await fetch("news.json"); // Charger le JSON local
-    const data = await res.json();
-
-    const list = document.getElementById("news-list");
-    list.innerHTML = "";
-
-    if (!data || data.length === 0) {
-      list.innerHTML = "<li>Aucune actualité trouvée.</li>";
-      return;
-    }
-
-    data.slice(0, 5).forEach(news => {
-      const li = document.createElement("li");
-      li.innerHTML = `
-        <a href="${news.link}" target="_blank">${news.title}</a>
-        <small>(${new Date(news.pubDate).toLocaleDateString("fr-FR")})</small>
-      `;
-      list.appendChild(li);
-    });
-  } catch (err) {
-    document.getElementById("news-list").innerHTML = "<li>Impossible de charger les actualités.</li>";
-    console.error("Erreur chargement JSON:", err);
-  }
-}
-
-loadNews();
-</script>
-
 
 </body>
 
